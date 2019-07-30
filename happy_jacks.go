@@ -8,8 +8,8 @@ const ServeThemSad = "-"
 //main is simply an entry point and driver
 func main(){
 
-	// INPUT: 
-	// I really don't like having 5 as an input so I'm ommitting this. 
+	// INPUT NOTE: 
+	// I really don't like having 5 as an input so I'm ommitting it. 
 	// We already know input length dynamically from the slice length so let's not add more to maintain. :-)
 
 	//creating static inputs
