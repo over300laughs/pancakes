@@ -85,7 +85,7 @@ func printInput(input []string) {
 // In production errors would have been handled to reflect the same behavior as the rest of the repository
 func printOutput(flipSlice []int) {
 	for key, flips := range flipSlice {
-		key++ //0 based so we need to increase it by one
+		key++ //0 indexed so we need to increase it by one
 		fmt.Printf("Case #%d: %d \n", key, flips)
 	}
 }
